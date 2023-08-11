@@ -29,6 +29,7 @@ namespace refatoracao.Aula01.R01.ExtractMethod.depois
             Console.WriteLine("*****************************");
             Console.WriteLine("nome: " + pedido.Cliente);
             Console.WriteLine("valor: " + total);
+            Console.WriteLine("Linha para teste");
         }
 
         private static decimal ImprimirItens(Pedido pedido)
